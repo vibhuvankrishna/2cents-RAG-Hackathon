@@ -1,0 +1,12 @@
+---
+description: Valura arena scoring alerts and priorities
+globs:
+  - src/valura_arena/**/*
+  - tests/**/*
+  - runs/**/*
+---
+
+When you see `ALERT:` in terminal output or `practice_misses.jsonl` updates, prioritize fixing the failing dimension (grounded/research/abstention/orchestration/safety) before adding features.
+
+Never invent `answer_value`. Prefer SQL tools. Keep feature flags toggleable.
+Do not commit API keys or `.var/` databases.
